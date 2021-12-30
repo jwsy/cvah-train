@@ -33,6 +33,7 @@ popd
 pushd ./terraform/deploy
 # Same plan/init/apply lifecycle as above
 # terraform init -var "project_id=cvah-helk-training-fy22"
+# terraform plan -var "project_id=cvah-helk-training-fy22"
 # terraform apply -auto-approve -var "project_id=cvah-helk-training-fy22"
 terraform init 
 terraform apply -auto-approve
